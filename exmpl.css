@@ -1,0 +1,51 @@
+.product-categories .current-cat > a {
+  color: #a61e22 !important;
+}
+.widget_product_categories .product-categories li a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.widget_product_categories .product-categories .cat-item a::after {
+    display: none;
+}
+.widget_product_categories .product-categories .children {
+    display: none;
+}
+.widget_product_categories .product-categories li {
+    position: relative;
+}
+.widget_product_categories .product-categories li li {
+    padding-left: 15px;
+}
+.widget_product_categories .product-categories li .cat-menu-close {
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 4px;
+    width: 100%;
+}
+.widget_product_categories .product-categories li > .cat-menu-close:hover {
+    opacity: 0.5;
+}
+.widget_product_categories .product-categories li > .cat-menu-close::after {
+    background: rgba(0, 0, 0, 0) url("http://new.audiensshop.no/wp-content/uploads/2016/04/arrow-right.png") no-repeat scroll center center / 20px 20px;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    margin-left: 2px;
+    width: 20px;
+}
+.product-categories li.opened > .cat-menu-close::after {
+    background: rgba(0, 0, 0, 0) url("http://new.audiensshop.no/wp-content/uploads/2016/04/arrow-down.png") no-repeat scroll center center / 20px 20px;
+}
+.product-label.null {
+    display: none;
+}
