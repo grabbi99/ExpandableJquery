@@ -36,7 +36,7 @@
     opacity: 0.5;
 }
 .widget_product_categories .product-categories li > .cat-menu-close::after {
-    background: rgba(0, 0, 0, 0) url("http://new.audiensshop.no/wp-content/uploads/2016/04/arrow-right.png") no-repeat scroll center center / 20px 20px;
+    background: rgba(0, 0, 0, 0) url("img/arrow-right.png") no-repeat scroll center center / 20px 20px;
     content: "";
     display: inline-block;
     height: 20px;
@@ -44,7 +44,7 @@
     width: 20px;
 }
 .product-categories li.opened > .cat-menu-close::after {
-    background: rgba(0, 0, 0, 0) url("http://new.audiensshop.no/wp-content/uploads/2016/04/arrow-down.png") no-repeat scroll center center / 20px 20px;
+    background: rgba(0, 0, 0, 0) url("img/arrow-down.png") no-repeat scroll center center / 20px 20px;
 }
 .product-label.null {
     display: none;
